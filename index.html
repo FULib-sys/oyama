@@ -1,1 +1,241 @@
-oyama
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>図書・雑誌・論文・情報を探す｜資料や情報を探す｜お山の大学図書館</title>
+    <meta property="og:title" content="図書・雑誌・論文・情報を探す｜資料や情報を探す｜お山の大学図書館">
+    <meta name="keywords" content="お山の大学図書館">
+    <meta name="description" content="お山の大学図書館のサイトです">
+    <meta property="og:site_name" content="お山の大学図書館">
+    <meta property="og:description" content="お山の大学図書館のサイトです">
+    <meta property="og:url" content="http://www.lib.ibaraki.ac.jp/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://www.lib.ibaraki.ac.jp/ogp.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="お山の大学図書館のサイトです">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/x-icon" href="/icon-192x192.png">
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'gve8gwp',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+
+    </script>
+  <link href="C:\Users\kawaguchi\Box\【図書館事務部共有】\3.Staff\012_情報管理係\90_tmp_作業用\オンライン\NII研修/style.css" rel="stylesheet"></head>
+
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    問い合わせフォーム
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">問い合わせフォーム</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="" action="index.html" method="post">
+          <p id="top">
+          １．氏名を記載してください。
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="お山の" required>
+          <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="花子" required>
+          </p>
+          <p>
+          ２．E-mailを記載してください。
+          <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="xxx@vc.ibaraki.ac.jp" required>
+          </p>
+          <p>
+          ３．身分をチェックしてください。
+          <input type="radio" name="mibun" value="1">教員
+          <input type="radio" name="mibun" value="2">職員
+          <input type="radio" name="mibun" value="3">学生
+          <input type="radio" name="mibun" value="3">名誉教授
+          <input type="radio" name="mibun" value="3">その他
+          </p>
+          <p>
+          ４．教員・学生の方は所属学部を以下から選んでください。<br>
+          <select class="form-select" aria-label="Default select example">
+          <option selected>リストから選択</option>
+          <option value="1">人文社会科学部</option>
+          <option value="2">教育学部</option>
+          <option value="3">理学部</option>
+          <option value="4">工学部</option>
+          <option value="4">農学部</option>
+          <option value="4">その他</option>
+          </select>
+          </p>
+          <p>
+          ５．学生の方は学籍番号を記載してください。
+          <input type="text" class="form-control" id="exampleFormControlInput4" placeholder="1234567" required>
+          </p>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">６．自由に記述してください。</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">閉じる</button>
+          <button type="button" class="btn btn-primary">送信</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <body data-pagecolor="green">
+    <div class="container-fluid">
+    <div data-behavior="mountGmenu"></div>
+    <main class="container-lower">
+      <div class="container-lower__inner">
+        <header class="container-lower__header">
+          <div class="container-lower__major">
+            <div class="breadcrumb">
+              <ul class="breadcrumb__inner container-lower__bread">
+                <li><a class="breadcrumb__home" href="/"><img class="breadcrumb__logo" src="C:\Users\kawaguchi\Box\【図書館事務部共有】\3.Staff\012_情報管理係\90_tmp_作業用\オンライン\NII研修/logo-library.svg" alt="お山の大学図書館">HOME</a><i class="fas fa-chevron-right breadcrumb__arrow"></i></li>
+                <li><a class="breadcrumb__home" href="/search">資料や情報を探す</a><i class="fas fa-chevron-right breadcrumb__arrow"></i></li>
+                <li>図書・雑誌・論文・情報を探す</li>
+              </ul>
+            </div>
+          </div>
+        </header>
+
+        <article class="container-lower__main">
+          <article id="search">
+            <p>
+            <div class="contents-static__buttons">
+              <a class="button" href="gakugai.html" target="_blank">学外からアクセスするには</a>
+            </div>
+          </p>
+            <section class="contents-static">
+              <header class="contents-static__header">
+                <h2 class="title contents-static__title">図書・雑誌・論文・情報を探す</h2>
+              </header>
+              <div class="contents-static__body">
+              <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <h3 class="heading">図書・雑誌のオンライン目録（OPAC）</h3>
+              </a>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                <p>本と雑誌を探すためのツールです。</p>
+
+                <div class="row">
+                <div class="col-md-6">
+                <h4><a href="http://opac.lib.ibaraki.ac.jp/" target="_blank">お山の大学図書館蔵書検索（OPAC)</a></h4>
+                <p>
+                  お山の大学で所蔵している図書と雑誌、および視聴覚資料が探せます。<br>
+                  必要な図書や雑誌のタイトル、著者などがわかっている場合は、とりあえずこちらで検索。<br>
+                  見つからない場合は、WebcatやNDL-OPACで検索。
+                </p>
+                  <a href="http://lib.hum.ibaraki.ac.jp/kiyolist/index.html" target="_blank">▼人文図書室所蔵雑誌（OPAC未登録)</a>
+                </div>
+
+                <div class="col-md-6">
+                  <h4><a href="http://ci.nii.ac.jp/books/" target="_blank">CiNii Books</a></h4>
+                <p>日本全国の大学図書館等が所蔵する図書・雑誌を検索できます。NACSIS Webcatの後継サービスです。</p>
+              </div>
+            </div>
+
+                <div class="row">
+                <div class="col-md-6">
+                  <h4><a href="http://webcatplus.nii.ac.jp/" target="_blank">Webcat Plus</a></h4>
+                <p>
+                  キーワードを入れて検索すると、それに関係のありそうな本を探してくれます。<br>
+                  漠然としたテーマからでも探しやすくて便利です。
+                </p>
+                </div>
+
+                <div class="col-md-6">
+                  <h4><a href="https://ndlonline.ndl.go.jp/" target="_blank">NDL ONLINE</a></h4>
+                <p>国立国会図書館が提供する資料を検索できます。</p>
+                </div>
+              </div>
+
+                <div class="row">
+                <div class="col-md-6">
+                  <h4><a href="http://www.lib.ibaraki.ac.jp/link/region.html" target="_blank">お山の県内図書館蔵書検索</a></h4>
+                <p>お山の県内の図書館へのリンク集。</p>
+              </div>
+                <div class="col-md-6">
+                  <h4><a href="http://base1.nijl.ac.jp/~tkoten/" target="_blank">日本古典籍総合目録データベース</a></h4>
+                <p><a href="http://base1.nijl.ac.jp/~tkoten/" target="_blank">国文学研究資料館</a>が提供する、日本の古典籍の総合目録。</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <a data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                <h3 class="heading">論文や雑誌記事を探すには？</h3>
+              </a>
+              <div class="collapse" id="collapseExample2">
+                <div class="card card-body">
+                <p>雑誌記事を網羅的に探すためのツールとしては、以下のようなものが便利です。</p>
+
+                <div class="row">
+                <div class="col-md-6">
+                  <h4><a href="http://ci.nii.ac.jp/" target="_blank">CiNii Articles</a></h4>
+                <p>
+                  CiNii Articlesは国立情報学研究所が提供する論文検索ツール。<br>
+                  論文によっては、本文が見られるものもあります。
+                </p>
+                </div>
+                <div class="col-md-6">
+                  <h4><a href="https://ndlonline.ndl.go.jp/" target="_blank">NDL ONLINE</a></h4>
+                <p>国立国会図書館の所蔵資料及び国立国会図書館で利用可能なデジタルコンテンツを検索できます。<br>
+                  国内で発行された資料の情報や、雑誌記事の索引、ウェブ上で公開されているコンテンツ、資料の探し方（リサーチ・ナビ）も利用できます。</p>
+                </div>
+                </div>
+
+                <div class="row">
+                <div class="col-md-6">
+                    <h4><a href="http://www.ingentaconnect.com/search/" target="_blank">IngentaConnect</a></h4>
+                  <p>海外の雑誌記事を探すことができます。</p>
+                  </div>
+                <div class="col-md-6">
+                  <h4><a href="https://rose-ibadai.repo.nii.ac.jp/" target="_blank">ROSEリポジトリいばらき</a></h4>
+                <p>お山の大学発行の紀要論文や研究報告などを、記事ごとに検索・閲覧できます。</p>
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-md-6">
+                  <h4><a href="https://irdb.nii.ac.jp/" target="_blank">IRDB</a></h4>
+                <p>日本の各大学や研究機関が公開している機関リポジトリを横断検索できます。</p>
+              </div>
+              </div>
+
+            </div>
+          </div>
+              </div>
+            </section>
+          </article>
+        </article>
+        <footer class="container-lower__footer">
+          <div class="breadcrumb">
+            <ul class="breadcrumb__inner container-lower__bread">
+              <li><a class="breadcrumb__home" href="/"><img class="breadcrumb__logo" src="C:\Users\kawaguchi\Box\【図書館事務部共有】\3.Staff\012_情報管理係\90_tmp_作業用\オンライン\NII研修\logo-library.svg" alt="お山の大学図書館">HOME</a><i class="fas fa-chevron-right breadcrumb__arrow"></i></li>
+              <li><a class="breadcrumb__home" href="/search">資料や情報を探す</a><i class="fas fa-chevron-right breadcrumb__arrow"></i></li>
+              <li>図書・雑誌・論文・情報を探す</li>
+          </ul>
+          </div>
+        </footer>
+      </div>
+    </main>
+<div data-behavior="mountFooter"></div>
+  <script type="text/javascript" src="/assets/script.js"></script>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
+
