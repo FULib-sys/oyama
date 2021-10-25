@@ -4708,8 +4708,7 @@ a {
     right: 0;
     width: 100vw;
     height: 100%;
-    background-color: white;
-    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.19); }
+    background-color: white;}
 
 .container-lower__inner {
   position: relative;
@@ -5261,7 +5260,6 @@ border-bottom: solid 3px rgb(119, 195, 223);
   background-color: white;
   opacity: 0;
   visibility: hidden;
-  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.19);
   transition: .2s;
   pointer-events: all; }
   @media (min-width: 970px) {
@@ -5277,8 +5275,7 @@ border-bottom: solid 3px rgb(119, 195, 223);
 
 @media (min-width: 970px) {
   .gmenu__scroll-head {
-    position: relative;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12); } }
+    position: relative; } }
 
 @media (min-width: 970px) {
   .gmenu__scroll-body {
