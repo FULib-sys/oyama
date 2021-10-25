@@ -5516,17 +5516,10 @@ border-bottom: solid 3px rgb(119, 195, 223);
   font-size: 14px;
   background: #FAFAFA;
   border-radius: .25rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
   transition: .2s; }
   @media (min-width: 970px) {
     .search-opac__field {
       font-size: 16px; } }
-  .search-opac__field:focus {
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-    outline: 0; }
-
-.sidemenu {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12); }
 
 .sidemenu__title {
   padding: 1rem;
