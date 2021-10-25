@@ -4728,12 +4728,9 @@ a {
     right: calc(100% - 1.5rem);
     width: 3rem;
     height: 100%;
-    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.05) calc(30% - 2px), rgba(0, 0, 0, 0.075) 30%, rgba(0, 0, 0, 0.05) calc(30% + 2px), transparent 100%);
-    pointer-events: none; }
     @media (min-width: 970px) {
       .container-lower__inner::before {
-        right: 100%;
-        background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.05) calc(50% - 2px), rgba(0, 0, 0, 0.075) 50%, rgba(0, 0, 0, 0.05) calc(50% + 2px), transparent 100%); } }
+        right: 100%;}}
 
 .container-lower__header {
   margin-bottom: 2rem;
@@ -5677,12 +5674,10 @@ border-bottom: solid 3px rgb(119, 195, 223);
     left: 0;
     width: 3rem;
     height: 100%;
-    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.05) calc(30% - 2px), rgba(0, 0, 0, 0.075) 30%, rgba(0, 0, 0, 0.05) calc(30% + 2px), transparent 100%);
-    pointer-events: none; }
     @media (min-width: 970px) {
       .p-feed::before {
         left: calc(50% - 1.5rem);
-        background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.05) calc(50% - 2px), rgba(0, 0, 0, 0.075) 50%, rgba(0, 0, 0, 0.05) calc(50% + 2px), transparent 100%); } }
+         } }
 
 .p-feed__inner {
   padding-right: 0;
@@ -5779,8 +5774,7 @@ border-bottom: solid 3px rgb(119, 195, 223);
     pointer-events: none; }
     @media (min-width: 970px) {
       #index .p-signboard::before {
-        left: calc(50% - 1.5rem);
-        background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.05) calc(50% - 2px), rgba(0, 0, 0, 0.075) 50%, rgba(0, 0, 0, 0.05) calc(50% + 2px), transparent 100%); } }
+        left: calc(50% - 1.5rem);} }
   @media (min-width: 970px) {
     #index .p-signboard {
       display: flex;
